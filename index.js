@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const whatsapp = require('./whatsapp/index');
-var port = process.env.PORT || 5000
+var port = process.env.PORT || 3000
 
 whatsapp.init();
 
